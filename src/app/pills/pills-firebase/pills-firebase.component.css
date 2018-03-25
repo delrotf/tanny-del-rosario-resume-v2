@@ -1,0 +1,10 @@
+span.btn {
+    color: black;
+    background-color: white;
+    border-color: orange;
+    border-radius: 20px;
+}
+
+span.btn img {
+    height: 26px;
+}
