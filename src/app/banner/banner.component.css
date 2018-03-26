@@ -1,3 +1,10 @@
 .jumbotron {
     margin-bottom: unset;
 }
+
+a.d-none {
+    position: absolute;
+    top: 30px;
+    right: 40px;
+    z-index: 800;
+}

@@ -1,6 +1,9 @@
-span.btn {
-    color: black;
+span.badge {
     background-color: yellow;
     border-color: yellow;
-    border-radius: 20px;
+    font-size: unset;
+    line-height: unset;
+    font-weight: unset;
+    -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
 }
