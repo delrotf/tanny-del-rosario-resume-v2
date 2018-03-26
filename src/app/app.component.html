@@ -1,6 +1,6 @@
 <div class="container-fluid ">
     <app-banner></app-banner>
-    <div #tabset>
+    <div #tabset class="d-print-none">
         <ngb-tabset type="pills" justify="justified" (tabChange)="onTabChange()">
             <ngb-tab title="About">
                 <ng-template ngbTabContent>
@@ -26,5 +26,15 @@
                 </ng-template>
             </ngb-tab>
         </ngb-tabset>
+    </div>
+    <div class="d-none d-print-block">
+        <div class="row">
+            <app-profile class="col-7"></app-profile>
+            <app-contact class="col-5"></app-contact>
+        </div>
+        <app-skills></app-skills>
+        <app-courses></app-courses>
+        <app-career-history></app-career-history>
+        <app-projects-md></app-projects-md>
     </div>
 </div>
