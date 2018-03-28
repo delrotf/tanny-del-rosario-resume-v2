@@ -60,6 +60,8 @@ import { ArmsComponent } from './arms/arms.component';
 import { ConsumerLoanSystemComponent } from './consumer-loan-system/consumer-loan-system.component';
 import { UpSkillingTrainingComponent } from './up-skilling-training/up-skilling-training.component';
 import { FacebookComponent } from './facebook/facebook.component';
+import { PillsIbmCloudComponent } from './pills/pills-ibm-cloud/pills-ibm-cloud.component';
+import { PillsHerokuComponent } from './pills/pills-heroku/pills-heroku.component';
 
 
 @NgModule({
@@ -121,7 +123,9 @@ import { FacebookComponent } from './facebook/facebook.component';
     ArmsComponent,
     ConsumerLoanSystemComponent,
     UpSkillingTrainingComponent,
-    FacebookComponent
+    FacebookComponent,
+    PillsIbmCloudComponent,
+    PillsHerokuComponent
   ],
   imports: [
     BrowserModule,

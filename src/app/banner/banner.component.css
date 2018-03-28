@@ -8,3 +8,7 @@ a.d-none {
     right: 40px;
     z-index: 800;
 }
+
+button img {
+    max-width: 40px;
+}
