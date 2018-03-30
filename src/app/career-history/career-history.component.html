@@ -1,5 +1,5 @@
 <article class="article-history card my-2">
-    <h2 class="card-header"><i class="fab fa-black-tie"></i> Career History</h2>
+    <h2 class="card-header"><span class="rounded-circle"><i class="fab fa-black-tie"></i></span> Career History</h2>
     <div class="card-body">
         <ol class="list-history px-4" reversed>
             <li>
@@ -19,7 +19,21 @@
             </li>
             <li>
                 <article class="article-history-item">
-                    <h3>Advisory IT Specialist</h3>
+                    <ng-template #isd let-c="close" let-d="dismiss">
+                        <div class="modal-header">
+                            <h4 class="modal-title">IBM Solutions Delivery, Inc. COE</h4>
+                            <button type="button" class="close" aria-label="Close" (click)="d('Cross click')">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="../assets/isd-coe.png" width="100%">
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-outline-dark" (click)="c('Close click')">Close</button>
+                        </div>
+                    </ng-template>
+                    <button class="btn btn-link p-0" (click)="open(isd)"><h3>Advisory IT Specialist</h3></button>
                     <h6>IBM Solutions Delivery, Inc.</h6>
                     <p>
                         <span class="period">2011/08-2017/04;</span>

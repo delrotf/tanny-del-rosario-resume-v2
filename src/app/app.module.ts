@@ -62,6 +62,7 @@ import { UpSkillingTrainingComponent } from './up-skilling-training/up-skilling-
 import { FacebookComponent } from './facebook/facebook.component';
 import { PillsIbmCloudComponent } from './pills/pills-ibm-cloud/pills-ibm-cloud.component';
 import { PillsHerokuComponent } from './pills/pills-heroku/pills-heroku.component';
+import { PillsAzureComponent } from './pills/pills-azure/pills-azure.component';
 
 
 @NgModule({
@@ -125,7 +126,8 @@ import { PillsHerokuComponent } from './pills/pills-heroku/pills-heroku.componen
     UpSkillingTrainingComponent,
     FacebookComponent,
     PillsIbmCloudComponent,
-    PillsHerokuComponent
+    PillsHerokuComponent,
+    PillsAzureComponent
   ],
   imports: [
     BrowserModule,
