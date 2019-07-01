@@ -63,6 +63,9 @@ import { FacebookComponent } from './facebook/facebook.component';
 import { PillsIbmCloudComponent } from './pills/pills-ibm-cloud/pills-ibm-cloud.component';
 import { PillsHerokuComponent } from './pills/pills-heroku/pills-heroku.component';
 import { PillsAzureComponent } from './pills/pills-azure/pills-azure.component';
+import { PosComponent } from './pos/pos.component';
+import { SesameMenuComponent } from './sesame-menu/sesame-menu.component';
+import { InvoiceSystemComponent } from './invoice-system/invoice-system.component';
 
 
 @NgModule({
@@ -127,7 +130,10 @@ import { PillsAzureComponent } from './pills/pills-azure/pills-azure.component';
     FacebookComponent,
     PillsIbmCloudComponent,
     PillsHerokuComponent,
-    PillsAzureComponent
+    PillsAzureComponent,
+    PosComponent,
+    SesameMenuComponent,
+    InvoiceSystemComponent
   ],
   imports: [
     BrowserModule,
