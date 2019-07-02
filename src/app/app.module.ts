@@ -66,6 +66,7 @@ import { PillsAzureComponent } from './pills/pills-azure/pills-azure.component';
 import { PosComponent } from './pos/pos.component';
 import { SesameMenuComponent } from './sesame-menu/sesame-menu.component';
 import { InvoiceSystemComponent } from './invoice-system/invoice-system.component';
+import { PillsAwsComponent } from './pills/pills-aws/pills-aws.component';
 
 
 @NgModule({
@@ -133,7 +134,8 @@ import { InvoiceSystemComponent } from './invoice-system/invoice-system.componen
     PillsAzureComponent,
     PosComponent,
     SesameMenuComponent,
-    InvoiceSystemComponent
+    InvoiceSystemComponent,
+    PillsAwsComponent
   ],
   imports: [
     BrowserModule,
